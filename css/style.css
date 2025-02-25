@@ -94,7 +94,7 @@ body {
 .header .nav .left .search input {
     width: 180px;
     height: 100%;
-    border: 2px solid #b12028;
+    border: 1px solid #b12028;
     border-radius: 20px;
 }
 
