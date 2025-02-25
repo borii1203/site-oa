@@ -36,6 +36,7 @@ a {
 body {
     font-family: 'OA-Gothic';
     font-weight: 500;
+    min-width: 1920px;
 }
 
 .header {
@@ -94,7 +95,7 @@ body {
 .header .nav .left .search input {
     width: 180px;
     height: 100%;
-    border: 1px solid #b12028;
+    border: 2px solid #b12028;
     border-radius: 20px;
 }
 
