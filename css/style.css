@@ -46,10 +46,12 @@ body {
 }
 
 .header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
+    padding-top: 4px;
     text-align: center;
-    position: static;
-    top: 0;
 }
 
 .header .logo img {
