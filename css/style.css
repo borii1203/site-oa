@@ -263,7 +263,7 @@ body {
     margin: 10px 0 16px;
 }
 
-.section-01 .button {
+.top_button {
     width: 60px;
     height: 60px;
     border: 1px solid #b12028;
@@ -274,10 +274,11 @@ body {
     color: #b12028;
     font-weight: 800;
     position: fixed;
-    right: 52px;
+    right: 50px;
     bottom: 100px;
     z-index: 100;
 }
+
 
 .section-02 {
     width: 100%;
@@ -368,6 +369,10 @@ body {
     transform: scaleY(1.2);
 }
 
+.section-03 .item_wrap .item:hover .image_box h3 {
+    color: #ffffff85;
+}
+
 .section-03 .item_wrap .item .image_box {
     position: relative;
     width: 100%;
@@ -438,12 +443,6 @@ body {
     display: inline-block;
     text-align: center;
     line-height: 24px;
-    transition: 0.3s;
-}
-
-.section-04 .inner .text a:hover {
-    background-color: #ffffff62;
-    font-size: 19px;
 }
 
 .section-04 .inner .item_wrap {
@@ -515,13 +514,7 @@ body {
     display: inline-block;
     text-align: center;
     line-height: 24px;
-    transition: 0.3s;
 }
-
-.section-05 .item .text a:hover {
-    background-color: #ffffff62;
-}
-
 .section-05 .item .text .left {
     color: #fff;
 }
