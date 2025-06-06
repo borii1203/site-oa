@@ -302,6 +302,9 @@ body {
     height: 60px;
     border: 1px solid #b12028;
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     text-align: center;
     line-height: 60px;
@@ -662,7 +665,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     h2 {
         font-size: 85px;
     }
@@ -1010,11 +1013,16 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-
+    .top_button {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+        right: 44px;
+    }
     .section-01,
     .section-03,
     .section-05 {
-        margin: 140px 0;
+        margin: 120px 0;
     }
 
     .main .main_visual .mySwiper .swiper-wrapper .swiper-slide .text {
@@ -1145,7 +1153,7 @@ body {
     }
 
     .section-03 .text {
-        margin-bottom: 28px;
+        margin-bottom: 16px;
     }
 
     .section-04 {
@@ -1317,6 +1325,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    .top_button {
+        right: 24px;
+    }
     h2 {
         font-size: 36px;
     }
@@ -1324,7 +1335,10 @@ body {
     .section-01,
     .section-03,
     .section-05 {
-        margin: 150px 0;
+        margin: 60px 0;
+    }
+    .main .main_visual .mySwiper .swiper-wrapper .swiper-slide img {
+        object-position: 65% ;
     }
 
     .main .main_visual .mySwiper .swiper-wrapper .swiper-slide .text a {
