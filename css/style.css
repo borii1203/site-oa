@@ -796,6 +796,10 @@ body {
         margin-right: 40px;
     }
 
+    .main .main_visual .mySwiper .swiper-wrapper  {
+        height: 600px;
+    }
+
     .main .main_visual .mySwiper .swiper-wrapper .swiper-slide .text a {
         width: 200px;
         height: 44px;
@@ -1031,6 +1035,10 @@ body {
 
     h2 {
         font-size: 64px;
+    }
+
+    .main .main_visual .mySwiper .swiper-wrapper {
+        height: 400px;
     }
 
     .main .main_visual .mySwiper .swiper-wrapper .swiper-slide .text a {
@@ -1336,6 +1344,9 @@ body {
     .section-03,
     .section-05 {
         margin: 60px 0;
+    }
+    .main .main_visual .mySwiper .swiper-wrapper {
+        height : 480px;
     }
     .main .main_visual .mySwiper .swiper-wrapper .swiper-slide img {
         object-position: 65% ;
